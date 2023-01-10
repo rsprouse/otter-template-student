@@ -1,0 +1,10 @@
+name: otter-template-student
+channels: 
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.9
+    - pip
+    - pip:
+        - -r requirements.txt
+        - git+https://github.com/ucbds-infra/otter-grader
